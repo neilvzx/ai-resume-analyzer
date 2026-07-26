@@ -1,0 +1,21 @@
+# --- Python / backend ---
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+*.pyo
+backend/*.db
+backend/uploads/
+backend/server.log
+
+# --- Env files (NEVER commit secrets) ---
+.env
+backend/.env
+frontend/.env
+
+# --- Node / frontend ---
+frontend/node_modules/
+frontend/dist/
+
+# --- OS junk ---
+.DS_Store
