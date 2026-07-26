@@ -5,6 +5,8 @@ parses it, and runs an AI-powered analysis returning an ATS compatibility
 score, strengths, weaknesses, missing skills, and concrete improvement
 suggestions.
 
+![Dashboard Screenshot](docs/dashboard-screenshot.png)
+
 ## Features
 
 - 🔐 **JWT authentication** — register/login, protected routes
