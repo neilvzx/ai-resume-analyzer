@@ -18,7 +18,10 @@ app = FastAPI(title=settings.APP_NAME)
 # Allow the React dev server (and other local ports) to call this API.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    ccccccccccallow_origins=[
+        "https://ai-resume-analyzer-pi-seven.vercel.app",
+        "http://localhost:5173",
+    ],,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
